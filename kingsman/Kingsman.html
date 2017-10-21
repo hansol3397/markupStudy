@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>킹스맨 | 평점&amp;리뷰</title>
+ <style>
+    @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /*//나눔고딕*/
+     
+     *{margin:0; padding:0;}
+	li{list-style-type:none;}
+	img{border:0 none;}
+
+	body{font-size:90%; font-family:'Nanum Gothic',"Malgun Gothic", 'Helvetica', sans-serif, 'verdana'; color:#333; }
+	a:link, a:visited{color:#000; text-decoration:none;}
+	a:hover, a:focus{color:#f00; text-decoration:underline;}
+   /*reset*/
+     
+    
+	.basic{width:80%; background-color:#fff; border-top:5px solid #ddd; padding:5%; margin:auto}
+     
+     section{width:500px; padding: 10px; letter-spacing: -1px;
+    word-spacing: -0.5px;}
+     .a2{float: left; }
+     .a21{width: 15%; /*background-color: aqua*/}
+     .a22{width: 85%; /*background-color: crimson*/}
+     .o_h{overflow: hidden}
+     
+     .title{border-bottom: 1px dotted #adadad; color: #333; font-size: 24px; font-weight: bold; padding: 10px 0}
+     .suv_title{font-size: 24px; font-weight: bold; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; /*width:100px;*/ overflow:hidden; color: #00f; font-family: 'Nanum Gothic'}
+     .content{font-size: 16px; color: #333; padding-top: 5px; font-family: 'Nanum Gothic'}
+     .content p{line-height: 23px;}
+     
+     .movie_box{overflow: hidden; padding: 10px 0;}
+     .grade_box{overflow: hidden; border-bottom: 1px solid #eee; padding-bottom: 5px;}
+     
+     .star_box{float: right; width: 27%; position: relative}
+     .star_box span{background: url("img/star.png") no-repeat 0 -12px; display: inline-block;text-indent: -9999px; /*float: left; */ width: 65%; position: relative; margin-top: 2px; height: 14px}
+     .star_box span .st_on{background: url("img/star.png") no-repeat 0 0px;position: absolute; width: 8.62%; z-index: 10;  width: 85.62%;    display: block;}
+     /*.st_off{background: url("img/star.png") no-repeat 0 4px; display: block; float: left; text-indent: -9999px; width: 65%; position: absolute}
+     .star:after{content:"";  background: url("img/star.png") no-repeat 0 -10px; display: block; text-indent: -9999px;}*/
+     .star_box .num{font-size: 18px; color: #333; font-weight: bold; float: right; font-style: normal;}
+ </style>
+ 
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+ </head>
+ <body>
+	<section>
+	    <div class="title">평점&amp;리뷰</div>
+	    <div class="movie_box">
+	        <div class="a2 a21"><img src="img/movie.jpg" alt="킹스맨 : 골드 서클 포스터"></div>
+	        <div class="a2 a22">
+	            <div class="grade_box">
+	                <div class="suv_title a2">킹스맨: 골든 서클</div>
+	                <div class="a2 star_box">
+                       <span class="st_off">
+                           <span class="st_on">별점8.62</span>
+                       </span>
+	                   <em class="num">8.62</em>
+	                </div>
+	            </div><!--//grade_box-->
+	            <div class="content">
+	                <p>그 놈의 넉살은 여전하네.</p>
+	                <p>[킹스맨 골든서클]자존심과 품격은 지켜 내었다.</p>
+	                <p>따끈하게 개봉한 '킹스맨2' 솔직 후기</p>
+	            </div><!--//content-->
+	        </div><!--//a2 a22-->
+	    </div> <!--//movie_box-->
+	</section>
+ </body>
+</html>
