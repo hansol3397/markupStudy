@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url("./reset.css");
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /*//나눔고딕*/
+
+section {
+    width: 500px;
+    padding: 10px;
+    letter-spacing: -1px;
+    word-spacing: -0.5px;
+}
+.title {
+    border-bottom: 1px dotted #adadad;
+}
+.title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.movie_box {
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%
+}
+.movie_box .thumb{
+    float:left;
+    width: 85px;
+    height: 120px;
+    margin-right: 5px;
+}
+.movie_box .thumb img{
+    width: 100%;
+}
+
+.grade_box {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.grade_box h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    font-family: 'Nanum Gothic';
+    margin: 0;
+    display: inline-block;
+}
+.grade_box h3 a:link, .grade_box h3 a:visited{
+    color: #00f;
+}
+
+.star_box {
+    float: right;
+    width: 110px;
+    position: relative
+}
+.star_box span {
+    background: url("../img/star.png") no-repeat 0 -12px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 72px;
+    position: relative;
+    margin-top: 2px;
+    height: 14px
+}
+.star_box span .st_on {
+    background: url("../img/star.png") no-repeat 0 0px;
+    position: absolute;
+    z-index: 10;
+    width:62px;
+    display: block;
+    margin-top: 2px;
+}
+.star_box .num {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    float: right;
+    font-style: normal;
+}
+
+.content {
+    font-size: 16px;
+    padding-top: 5px;
+    font-family: 'Nanum Gothic';
+}
+.content ul{
+    margin: 0;
+}
+.movie_box .content ul li {
+    line-height: 25px;
+}
+.movie_box .content ul li a:link, 
+.movie_box .content ul li a:visited{
+   color: #333;
+}
+
+
+
+
+
+
+
