@@ -45,10 +45,12 @@ section {
     white-space: nowrap;
     word-wrap: normal;
     overflow: hidden;
-    color: #00f;
     font-family: 'Nanum Gothic';
     margin: 0;
     display: inline-block;
+}
+.grade_box h3 a:link, .grade_box h3 a:visited{
+    color: #00f;
 }
 
 .star_box {
@@ -62,7 +64,7 @@ section {
     text-indent: -9999px;
     width: 72px;
     position: relative;
-    margin-top: 5px;
+    margin-top: 2px;
     height: 14px
 }
 .star_box span .st_on {
